@@ -1,0 +1,49 @@
+/*Scrollbar*/
+.contentHolder {
+	padding: 0;
+	height: 255px; 
+	margin: 0px auto;
+	overflow: hidden; 
+	position: relative; 
+}
+
+.spacer { 
+  	text-align: center 
+}
+
+.overflow-h { overflow: hidden;}
+.overflow-a { overflow: auto;}
+.overflow-hidden { overflow: hidden;}
+
+
+.profile-event {
+    background: #fff;
+    padding: 10px 15px;
+    margin-bottom: 2px;
+}
+.date-formats {
+    color: #fff;
+    float: left;
+    text-align: center;
+    background: #3c8dbc;
+    margin: 7px 13px 0 0;
+    padding: 7px 10px 4px;
+}
+.date-formats span {
+    display: block;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 25px;
+}
+.profile-event .heading-xs {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+h3.heading-xs {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.profile-event p {
+    color: #737373;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,69 @@
+body{background:#f9f9f9;}
+.login{padding:10px;margin-top:15px;border: 8px solid #493a71;display: block;-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);-moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.1);box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;}
+.mrg{margin-top:25px; margin-bottom:10px;}
+.pagination {margin: 2px 0;}
+.pad{padding:5px 5px;}
+.mrg-1{margin-top: 5px;}
+.asc{background: url('../img/sort_asc.png') no-repeat center right;cursor: pointer;display: block;}
+.desc{background: url('../img/sort_desc.png') no-repeat center right;cursor: pointer;display: block;}
+table tr th a{color:#000;background: url('../img/sort_both.png') no-repeat center right;cursor: pointer;display: block;}
+table tr th a:hover{text-decoration: none;}
+.error-message{color: #FF0000;}
+.cust-supt{font-size: 45px;font-weight:900;font-family:"Times New Roman", Times, serif; color:#5a5a5a;margin-left:15px;margin-top:25px;}
+.cust-head2{font-size: 18px;margin:15px 15px 15px 15px; font-weight:900;font-family:"Times New Roman", Times, serif; color:#8b848c;}
+.cust-list li{ line-height:25px; font-size:18px;font-weight:900;font-family:"Times New Roman", Times, serif; color:#7b7d70;}
+.cust-list li span{color:#df7264;}
+.qaction{background-color:#eee;}
+.qcmrg{padding-bottom: 10px;}
+.legend{width: 10em;}
+.legend .title{display: block;margin-bottom: 0.5em;line-height: 1.2em;padding: 0 0.3em;}
+.legend .color-sample{display: block;float: left;width: 1em;height: 1em;border: 2px solid;border-radius: 0.5em;margin-right: 0.5em;}
+.dropdown-menu {z-index: 1111 !important;}
+div.message {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    padding: 0 1.5rem 0 1.5rem;
+    transition: height 300ms ease-out 0s;
+    background-color: #69dd77;
+    color: #ffffff;
+    top: 15px;
+    right: 15px;
+    z-index: 999;
+    overflow: hidden;
+    height: 50px;
+    line-height: 2.5em;
+    box-radius: 5px;
+}
+
+div.message:before {
+    line-height: 0px;
+    font-size: 20px;
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    left: -11px;
+    background-color: #FFF;
+    padding: 12px 14px 12px 10px;
+    content: "i";
+    color: #a0d3e8;
+}
+
+div.message.error {
+    background-color: #C3232D;
+    color: #FFF;
+}
+
+div.message.error:before {
+    padding: 11px 16px 14px 7px;
+    color: #C3232D;
+    content: "x";
+}
+div.message.hidden {
+    height: 0;
+}
