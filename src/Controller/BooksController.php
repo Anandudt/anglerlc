@@ -43,11 +43,15 @@ class BooksController extends AppController
     {
 		//$this->viewBuilder()->layout('bookl');
         $book = $this->Books->get($id, [
-            'contain' => ['Publishers', 'Author']
+            'contain' => ['Publishers', 'Author', 'Shops']
         ]);
 
         $this->set('book', $book);
         $this->set('_serialize', ['book']);
+		
+		
+		
+		
     }
 
     /**
@@ -59,6 +63,10 @@ class BooksController extends AppController
     {
 		//$this->viewBuilder()->layout('bookl');
         $book = $this->Books->newEntity();
+		
+		//$this->loadModel('Author');
+      // $this->set('aut_id', $this->Author->find('list',array('fields'=>array('id','aut_name'))));
+		
         if ($this->request->is('post')) {
             $book = $this->Books->patchEntity($book, $this->request->getData());
             if ($this->Books->save($book)) {
@@ -76,7 +84,13 @@ class BooksController extends AppController
    'keyField' => 'id',
    'valueField' => 'aut_name'
 ], ['limit' => 200]);
-        $this->set(compact('book', 'publishers', 'author'));
+
+$shopnames = $this->Books->Shopnames->find('list',[
+   'keyField' => 'id',
+   'valueField' => 'shopname'
+], ['limit' => 200]);
+
+        $this->set(compact('book', 'publishers', 'author', 'shopnames'));
         $this->set('_serialize', ['book']);
     }
 

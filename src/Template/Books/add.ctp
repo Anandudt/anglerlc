@@ -52,7 +52,14 @@ echo $this->fetch('script');
                    <?php  echo $this->Form->select('pub_id',$publishers,array('style'=>'width:100%','class'=>'select2','empty'=>__('Select Publisher')));  ?>
                 </div>
             </div>
-            <div class="form-group">
+			<div class="form-group">
+                <label for="group_name" class="col-sm-4 control-label"><small><?php echo __('Shops');?><span class="text-danger"> *</span></small></label>
+                <div class="col-sm-4">
+                   <?php  echo $this->Form->select('shopname',$shopnames,array('style'=>'width:100%','multiple'=>'true','class'=>'select2','empty'=>__('Select Shops')));  ?>
+                </div>
+            </div>
+			
+           <div class="form-group">
                 <label for="group_name" class="col-sm-4 control-label"><small><?php echo __('Published Date');?><span class="text-danger"> *</span></small></label>
                 <div class="col-sm-2">
                 <div class="input-group date" id="pub_date">                        

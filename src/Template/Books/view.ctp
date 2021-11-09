@@ -44,5 +44,17 @@
             <th scope="row"><?= __('Pub Date') ?></th>
             <td><?= h($book->pub_date) ?></td>
         </tr>
+		<tr>
+            <th scope="row"><?= __('Shops') ?></th>
+            <td><?php
+	foreach ($book->shops as $shop)
+	{
+		echo $shop->shop_name.', ';
+	}
+	
+	?></td>
+        </tr>
     </table>
+	
+	
 </div>

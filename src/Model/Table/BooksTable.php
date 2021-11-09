@@ -40,9 +40,17 @@ class BooksTable extends Table
         $this->belongsTo('Publishers', [
             'foreignKey' => 'pub_id'
         ]);
-        $this->belongsTo('Author', [
+       
+	   $this->belongsTo('Author', [
             'foreignKey' => 'aut_id'
         ]);
+		
+		$this->hasMany('Shopnames');
+		
+		$this->hasMany('Shops');
+		
+
+		
     }
 
     /**
