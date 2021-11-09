@@ -7126,3 +7126,706 @@ Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
 
 
 
+2021-11-09 06:45:29 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /author
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:45:30 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /author/add
+Referer URL: http://localhost:8080/cakephplc/author
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:45:33 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/author/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:45:35 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:01 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:09 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books/add
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:10 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/books/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:12 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:13 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:13 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books/add
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:14 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:15 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /author/add
+Referer URL: http://localhost:8080/cakephplc/author
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:17 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/author/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:18 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /author/add
+Referer URL: http://localhost:8080/cakephplc/author
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:18 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /publishers
+Referer URL: http://localhost:8080/cakephplc/author/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:19 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /author/add
+Referer URL: http://localhost:8080/cakephplc/author
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:20 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /author
+Referer URL: http://localhost:8080/cakephplc/author/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:22 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /publishers
+Referer URL: http://localhost:8080/cakephplc/author
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:22 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /author
+Referer URL: http://localhost:8080/cakephplc/publishers
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:23 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/author
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:32 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:46:33 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /author
+Referer URL: http://localhost:8080/cakephplc/publishers
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:47:00 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /publishers
+Referer URL: http://localhost:8080/cakephplc/author
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:47:02 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books
+Referer URL: http://localhost:8080/cakephplc/publishers
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:47:04 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books/edit/1
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-11-09 06:47:47 Notice: Deprecated (16384): Controller::$layout is deprecated. Use $this->viewBuilder()->setLayout() instead. in [E:\Xamp_New\htdocs\cakephplc\vendor\cakephp\cakephp\src\Controller\Controller.php, line 383]
+Request URL: /books/edit/1
+Referer URL: http://localhost:8080/cakephplc/books
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Controller\Controller::__set() - CORE\src\Controller\Controller.php, line 383
+App\Controller\AppController::beforeRender() - APP/Controller\AppController.php, line 82
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 393
+Cake\Controller\Controller::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 110
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 103
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 107
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 81
+[main] - ROOT\webroot\index.php, line 40
+
+
+

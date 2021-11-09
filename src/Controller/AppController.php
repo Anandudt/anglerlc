@@ -77,6 +77,8 @@ class AppController extends Controller
      */
     public function beforeRender(Event $event)
     {
+		
+		$this->viewBuilder()->layout('authorl');
 		/*if (array_key_exists($this->name, $this->custom_layouts))
         {
           $this->layout = $this->custom_layouts[$this->name];
@@ -94,5 +96,7 @@ class AppController extends Controller
         ) {
             $this->set('_serialize', true);
         }
+		
+		
     }
 }
