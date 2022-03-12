@@ -25,6 +25,8 @@ class AuthorController extends AppController
 
         $this->set(compact('author'));
         $this->set('_serialize', ['author']);
+        
+        //anand
     }
 
     /**
